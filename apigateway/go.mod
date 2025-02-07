@@ -1,6 +1,8 @@
 module cloud.google.com/go/apigateway
 
-go 1.19
+go 1.21
+
+toolchain go1.23.6
 
 require (
 	cloud.google.com/go/longrunning v0.3.0
@@ -8,7 +10,7 @@ require (
 	google.golang.org/api v0.103.0
 	google.golang.org/genproto v0.0.0-20221201164419-0e50fba7f41c
 	google.golang.org/grpc v1.51.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.5
 )
 
 require (
